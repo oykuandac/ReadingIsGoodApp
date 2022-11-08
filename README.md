@@ -30,7 +30,7 @@ Ben Windows 10 kullandığımdan dolayı Docker'ı çalıştıramadım. Son dere
 Bunun dışında mvn spring-boot:run komutu ile proje başlatılabilir.
 
 ## Controller
-<ul>![Paging sayfa2](https://user-images.githubusercontent.com/38913989/200575274-b87bb7da-f643-4e86-af1b-40b05d0d944b.PNG)
+<ul>
 
 <li>
   AuthenticationController:<br />   
