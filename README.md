@@ -116,8 +116,4 @@ http://localhost:8080/swagger-ui.html
 ![Swagger](https://user-images.githubusercontent.com/38913989/200543416-5c6ab9f1-6f4d-4112-b18e-ac5626b40013.PNG)
 
 
-## Yapılabilecek İyileştirmeler
 
-1) Users may have a profile page that holds the personal information of the user.
-2) Forget Password? section can be added.
-3) The first time we run the app on the web browser, it works slow. After the first time, it gets speed up. That might be fixed.
