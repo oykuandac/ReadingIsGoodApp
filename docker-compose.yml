@@ -1,0 +1,22 @@
+version: '2'
+services:
+  readingapp-server:
+    container_name: reading-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      #application.propertiesde olan şeyler buraya gelebilir
+      DATABASE_SERVER: jdbc:h2:mem:bookrepository
+      SPRING_DATASOURCE_DATA: file:/src/main/resources/schema.sql
+    ports:
+      - 8019:8019
+    depends_on:
+      - h2
+  h2:
+    container_name: 'h2'
+    hostname: 'h2'
+    image: 1000kit/h2
+    ports:
+      - "8181:8181"
+      - "1521:1521"
